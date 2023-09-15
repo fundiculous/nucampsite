@@ -8,6 +8,7 @@ const Footer = () => {
                     <Col xs={{ size: 4, offset: 1 }} sm='2' >
                     <h5>this will be site navigation!</h5> 
                     </Col>
+
                     <Col xs='6' sm='3' className='text-center'>
                     <h5>Social</h5>
                         <a
@@ -36,6 +37,7 @@ const Footer = () => {
                         </a>
 
                     </Col>
+                    
                     <Col sm='4' className='text-center'>
                     <a
                             role='button'
