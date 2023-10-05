@@ -14,11 +14,9 @@ import {validateUserLoginForm} from '../../utils/validateUserLoginForm';
 import defaultAvatar from '../../app/assets/img/unicorn.png';
 
 
-const UserLoginForm = () => {   //comment form uses ({campsiteId})
+const UserLoginForm = () => {   
     const [loginModalOpen, setLoginModalOpen] = useState(false);
-
     const currentUser = useSelector(selectCurrentUser);
-
     const dispatch = useDispatch();
 
     const handleLogin = (values) => {
