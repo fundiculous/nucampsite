@@ -5,6 +5,7 @@ import { selectAllCampsites } from './campsitesSlice';
 import Error from  '../../components/Error';
 import Loading from '../../components/Loading';
 
+
 const CampsitesList = () => {
     const campsites = useSelector(selectAllCampsites);
     console.log('campsite: ', campsites);
